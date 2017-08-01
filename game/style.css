@@ -1,0 +1,16 @@
+main img {
+  height: 250px;
+}
+header {
+  background-color: mediumaquamarine;
+}
+body {
+  font-family: 'Gloria Hallelujah';
+  background-color: darkgoldenrod;
+}
+footer {
+  background-color: brown;
+}
+footer strong {
+  color: white;
+}

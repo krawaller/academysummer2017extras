@@ -1,0 +1,36 @@
+#board {
+  position: relative;
+  background-color: green;
+  height: 500px;
+  width: 800px;
+}
+
+#playerscore {
+  position: absolute;
+  top: 450px;
+}
+
+#dealerscore {
+  position: absolute;
+  top: 240px;
+}
+
+.card {
+  position: absolute;
+  top: -200px;
+  width: 120px;
+  transition: top 0.3s ease, left 0.3s ease
+}
+
+.player { top: 300px; }
+
+.dealer { top: 40px; }
+
+.pos0 { left: 20px; }
+.pos1 { left: 160px; }
+.pos2 { left: 300px; }
+.pos3 { left: 440px; }
+.pos4 { left: 580px; }
+.pos5 { left: 720px; }
+.pos6 { left: 860px; }
+.pos7 { left: 1000px; }
