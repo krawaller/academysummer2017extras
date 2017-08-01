@@ -4,7 +4,11 @@ var gameState;
 try {
   gameState = JSON.parse( localStorage.getItem("GAMESTATE") );
 } catch(e) {
-  // no state was saved, start from beginning
+
+}
+
+if (!gameState){
+  // no state was saved or loading failed, start from beginning
   gameState = {
     currentPage: 'beginning'
   };
